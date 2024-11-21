@@ -8,6 +8,7 @@ public class PersonEntity {
     @Id
     private final String name;
     private final Integer born;
+
     public PersonEntity(Integer born, String name) {
         this.born = born;
         this.name = name;
